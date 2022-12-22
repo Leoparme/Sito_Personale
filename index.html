@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0" />
+    <title>Leonardo Parmeggiani</title>
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- connessione pag html-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Fontawasome (Icone) -->
+    <script
+      src="https://kit.fontawesome.com/5971e040c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--favicon-->
+    <link rel="icon" href="assets/img/MioLogo2.png" />
+  </head>
+  <!-------body-------->
+  <body>
+    <div class="header">
+      <div class="menunav">
+        <nav>
+          <img src="assets/img/MioLogo2.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p id="one"><span>UX/UI</span> Designer</p>
+          <h1>Hi, I'm <span>Leonardo</span>.</h1>
+          <p id="sub">
+            I'm a UX / UI designer, based in Italy, fascinated by the
+            <span>evolution of design</span>
+            and tech world. Passionate about <span>educating</span>, fostering
+            <span>trust</span> and <span>solving problems</span> through design.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-----------------portfolio-------------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="title-2">Portfolio</h1>
+        <div class="work-list">
+          <!--work 1-->
+          <div class="work">
+            <img src="assets/img/Livenation.png" alt="Livenation UI project" />
+            <div class="card-body">
+              <h1 class="card-title">LIVENATION</h1>
+              <p class="card-sub-title">Personal Project - UI Case Study</p>
+              <p class="card-info">
+                Designing a modern, minimal and immersive interface of the most
+                famous live events ticketing platform. Trying to convey the
+                first emotions to the user in the process of participating to a
+                live event.
+              </p>
+              <a
+                href="https://www.behance.net/gallery/158749677/LIVENATION-UI-Caso-Studio"
+                class="card-button"
+                >View Case Study</a
+              >
+            </div>
+          </div>
+          <!--fine work 1-->
+          <!--work 2-->
+          <div class="work">
+            <img src="assets/img/sOON.png" alt="UX UI project" />
+          </div>
+          <!--work 3-->
+          <div class="work">
+            <img src="assets/img/sOON.png" alt=" UX UI project" />
+          </div>
+        </div>
+        <a href="#" id="buttonmore">See more</a>
+      </div>
+    </div>
+    <!--------------------------- About me------------- -->
+    <div id="aboutme">
+      <div class="title-about">
+        <h1>A little bit about <span>myself</span></h1>
+      </div>
+      <div class="col">
+        <div class="about-col-1">
+          <img
+            src="assets/img/Metoronto.PNG"
+            alt="Leonardo Parmeggiani UI Designer"
+          />
+        </div>
+        <div class="about-col-2">
+          <p>
+            Hey, I’m Leonardo - a <span>UX/UI Designer</span> that love build
+            simple, intuitive interaction experiences that solve user problems
+            in fun, aesthetically pleasing formats. <br /><br />
+            I was born in <span>Rome, Italy</span>. During my life, i was lucky
+            enough to travel a lot since i was young. For this reason, the
+            desire to learn <span>foreign languages</span> and look at the world
+            from <span> different perspectives</span>, was born. <br />I lived
+            in Spain and Toronto and after this experiences and meeting peoples
+            from all over the world, I became fascinated with the way people
+            <span>think, feel, behave and learn from all their stories.</span
+            ><br /><br />
+            After 2 years dedicated to digital marketing and e-commerce, I found
+            that my real passion was in the design side.<br />
+            So I started and completed the full UX/UI Design Course of
+            <span>Start2Impact University</span>, testing me with different
+            design projects. Meanwhile, I always take a look at the
+            <span>web3 world </span>and i help, through design, the first
+            Italian community DAO 333.Builders. <br /><br />In addition to
+            design, I love hiking and practice physical training.
+          </p>
+          <br /><br /><br /><br />
+          <p>
+            <em>
+              “The more that you read, the more things you will know more that
+              you learn, the more places you’ll go.”
+            </em>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="skillmenu">
+      <h1 id="Skills">Skills</h1>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('General')">
+          General
+        </p>
+        <p class="tab-links" onclick="opentab('Design')">Design</p>
+        <p class="tab-links" onclick="opentab('Languages')">Languages</p>
+      </div>
+      <!-- sezione skills contenuto-->
+
+      <div class="tab-contents active-tab" id="General">
+        <ul>
+          <li><span>UI/UX</span><br />Web/App Design Interface</li>
+          <br />
+          <li><span>User Research</span><br />Study of target users</li>
+          <br />
+          <li>
+            <span>Rapid Prototyping</span><br />Implementing ideas into tangible
+            forms from paper to digital
+          </li>
+          <br />
+          <li>
+            <span>Wireframing</span><br />Design a website service at the
+            structural level
+          </li>
+          <br />
+          <li>
+            <span>Design Thinking</span><br />Solving problems by prioritizing
+            the consumer's needs above all else.
+          </li>
+          <br />
+          <li>
+            <span>Usability Testing</span><br />Evaluating a product or service
+            by testing it with representative users.
+          </li>
+          <br />
+          <li>
+            <span>Branding</span><br />Creating a distinct identity for a
+            business in the mind of your target audience and consumers.
+          </li>
+          <br />
+          <li>
+            <span>FrontEnd Dev</span><br />Using web languages (HTML, CSS, and
+            JavaScript) that allow users to access and interact with the site or
+            app.
+          </li>
+          <br />
+        </ul>
+      </div>
+      <div class="tab-contents" id="Design">
+        <ul>
+          <li>
+            <span>Figma</span><br />UI Design - Graphic Editing - Prototyping
+          </li>
+          <br />
+          <li><span>Adobe Photoshop</span><br />Basic image-photo editing</li>
+          <br />
+          <li><span>InVision</span><br />Design and rapid prototyping</li>
+          <br />
+          <li><span>HTML / CSS</span><br />To collaborate with Developers</li>
+          <br />
+          <li>
+            <span>Git</span><br />Open source distributed version control system
+          </li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="Languages">
+        <ul>
+          <li><span>Italian</span><br />Native proficiency</li>
+          <br />
+          <li><span>English</span><br />Professional profiency</li>
+          <br />
+          <li>
+            <span>Spanish</span><br />
+            Conversant profiency
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ------------------Contact---------------->
+    <div class="contact">
+      <div class="contact-left">
+        <h1 class="title-2">Contact Me</h1>
+        <p id="contact-sub">
+          Like to collaborate or discuss job opportunities? Let's connect!
+          <br />
+          <br />
+          If you'd like to get in touch, you can find me on LinkedIn or drop me
+          an Email.
+        </p>
+        <p>
+          <a href="mailto:leoparme@live.it">
+            <i class="fa-solid fa-envelope"></i>leoparme@live.it</a
+          >
+        </p>
+        <div class="social-icons">
+          <a href="www.linkedin.com/in/leonardo-parmeggiani"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.behance.net/leonardparmegg"
+            ><i class="fa-brands fa-behance"></i
+          ></a>
+        </div>
+        <a href="" download id="buttonCV">Download CV</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>
+        Copyright © Leonardo Parmeggiani. This Website is hand-crafted, with
+        care by me.
+      </p>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
